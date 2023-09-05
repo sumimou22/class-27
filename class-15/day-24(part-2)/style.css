@@ -1,0 +1,175 @@
+/* --------------default-css---------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* ----------------------header-section----------------- */
+.header-section{
+    background-color: #2d91dd;
+}
+.header{}
+.header-left{
+    width: 30%;
+    float: left;
+}
+.header-left img{
+    width: 90px;
+    height: auto;
+}
+.header-right{
+    width: 70%;
+    float: right;
+}
+.header-right ul{
+    text-align: right;
+    
+}
+.header-right ul li{
+    list-style: none;
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 20px 0;
+}
+.header-right ul li a{
+    text-decoration: none;
+    margin: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+/* ----------------------------hero-section---------------- */
+.hero-section{
+    background-image: url("https://i.ibb.co/ZhSBCXD/header-bg01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.hero{}
+.hero h3{
+    color: white;
+    background-color: #7f7d7f;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.hero h4 {
+    padding: 10px;
+    width: 348px;
+    color: white;
+    background-color: #6eacda;
+    margin-left: 317px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 36px;
+}
+/* ---------------------------grid-section------------------- */
+.grid-section {
+    margin-top: -55px;
+    padding: 100px;
+}
+.grid{
+    text-align: center;
+}
+.grid1{
+    width: 31%;
+    float: left;
+    margin-left: 2%;
+    box-shadow: 1px 1px 7px grey;
+    padding: 20px 0px;
+}
+span{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+    background-color: #2791dd;
+    border-radius: 20px 0 20px 0;
+    padding: 10px 10px;
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+}
+.grid-text{
+    padding:0 200px;
+    margin-bottom: 30px;
+}
+.grid-text h1{}
+.grid-text p{}
+/* ----------------------------------blog-section----------------------- */
+.blog-section{}
+.blog{}
+.blog-left{
+    width: 70%;
+    float: left;
+    margin-bottom: 30px;
+}
+.blog-left img{
+    float: left;
+    width: 160px;
+    height: auto;
+}
+.blog-right {
+    margin-top: -215px;
+    width: 25%;
+    float: right;
+}
+.blog-right h1{
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    font-size: 20px;
+}
+.blog-right ul{
+    list-style: none;
+}
+.blog-right ul li {
+    background-color: #fafafa;
+    margin-bottom: 6px;
+    padding: 16px;
+    border: 1px solid #ddd;
+}
+/* ----------------------------footer-section------------------- */
+.footer-section{
+    background-color: black;
+}
+.footer{
+    text-align: center;
+}
+.footer-left{
+    float: left;
+    width: 40%;
+    color: white;
+    font-size: 20px;
+} 
+.footer-left p{
+    margin-top: 20px;
+}
+.footer-right{
+    float: right;
+    width: 60%;
+}
+.social{
+    text-align: right;
+}
+.social li{
+    display: inline-block;
+}
+.social li a{
+    color: white;
+    display: inline-block;
+    margin: 20px;
+    font-size: 30px;
+}
+.social li a:hover{
+    color: magenta;
+}
+

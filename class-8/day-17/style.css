@@ -1,0 +1,15 @@
+
+.main-div{
+    background-color: dimgray;
+}
+
+
+.div1{
+    display: inline-block;
+}
+
+.div2{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+}

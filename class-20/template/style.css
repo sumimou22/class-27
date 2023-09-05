@@ -1,0 +1,41 @@
+/* --------------header-section--------- */
+.navbar-section{
+    background-color: #e3f2fd;
+}
+/* -------------bread-section------------ */
+.bread-section{
+    margin-top: 30px;
+}
+.breadcrumb{
+    background-color:#e9ecef ;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.alert{
+    background-color:#d4edda ;
+    color: #226230;
+}
+/* --------------pro-section-------------- */
+.progress{
+    margin-top: 10px;
+}
+/* ----------------modal-section------------ */
+.modal-section{
+    margin-top: 30px;
+}
+/* -------------scrollspy-section---------- */
+.scrollspy-section{
+    margin-top: 30px;
+
+}
+/* -------------pagination-section---------- */
+.page-section{
+    padding: 40px;
+    text-align: center;
+}
+.pagination {
+    margin-left: 312px;
+}
+.dropdown {
+    margin-left: 418px;
+}

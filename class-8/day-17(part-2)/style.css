@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.main-div{
+    text-align: center;
+    width: 1024px;
+    margin: 20px auto;
+    color: white;
+    box-shadow: 1px 1px 6px rgba(17, 12, 3, 0.4);
+
+}
+.menu{
+    background-color: rgb(20, 125, 211);
+  
+}
+img{
+    max-width: 100%;
+    margin-bottom: -5px;
+}
+.container{
+    background-color: blueviolet;
+}
+.footer{
+    background-color: rgb(230, 17, 145);
+   
+}
+.footer-bottom{
+    background-color: darkgreen;
+ 
+}
+.op{
+    padding: 30px 0;
+}
+.opx{
+    padding: 60px 0;
+}

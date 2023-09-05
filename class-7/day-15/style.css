@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: aliceblue;
+    background-color: blue;
+    padding: 20px;
+    margin-left: 30px;
+    border: 1px solid rgb(207, 221, 53);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+h2{
+    color: aliceblue;
+    background-color: rgb(0, 255, 102);
+    padding: 20px;
+    margin-left: 30px;
+    border: 2px solid rgb(114, 25, 77);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h3{
+    color: aliceblue;
+    background-color: rgb(108, 62, 143);
+    padding: 20px;
+    margin-left: 30px;
+    border: 3px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.div-1{
+    color: aliceblue;
+    background-color: rgb(255, 0, 89);
+    padding: 20px;
+    margin-left: 30px;
+    border: 2px solid rgb(14, 35, 154);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.div-2{
+    color: aliceblue;
+    background-color: rgb(149, 255, 0);
+    padding: 20px;
+    margin-left: 30px;
+    border: 3px solid rgb(170, 14, 14);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+a{
+    color: white;
+    background-color: blue;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 20px;
+    border: 3px solid rgb(126, 197, 20);
+    text-decoration: none;
+    font-size: 30px;
+
+}
+

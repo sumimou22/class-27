@@ -1,0 +1,153 @@
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Work Sans', sans-serif;
+
+}
+img{
+    max-width: 100%;
+}
+.min{
+    background-color: #f8f9ff;
+}
+/* ---------------header-section----------- */
+
+a.navbar-brand {
+    font-size: 29px;
+    font-weight: 500;
+    margin-right: 62px;
+}
+.mou,.oh{
+    font-weight: 900;
+    background-color: blue;
+    color: white;
+    padding: 13px;
+    border-radius: 10px;
+    margin-right: 6px;
+}
+/* ---------------slider-section------------ */
+.slider-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.678),rgba(0, 0, 0, 0.678)),url(./tutorial-computer-900x288.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    
+}
+/* -------------feature-section--------------- */
+.feature-item{
+    height: 300px;
+    box-shadow: 2px 2px 4px 4px rgb(165, 157, 157);
+    margin-bottom: 10px;
+    
+}
+.left-img{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+ 
+}
+.left-img img{
+    height: 100%;
+    width: auto;
+    max-width: inherit;
+    position: relative;
+    margin-left: -70px;
+
+}
+.right-text{
+    width: 60%;
+    /* padding: 20px; */
+    margin-left: 30px;
+
+}
+/* --------------portfolio-section----------- */
+.portfolio{}
+.portfolio a{
+    position: relative;
+    display: block;
+}
+.portfolio a::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+.portfolio a:hover::after{
+    visibility: visible;
+    opacity: 1;
+  
+}
+/*------------- pricing table------------- */
+.pri1{
+    background-color: white;
+    box-shadow: 2px 2px 4px 4px rgb(165, 157, 157);
+    padding: 50px;
+}
+.pri1 h3{}
+.pri1 h5{
+    margin-top: ;
+}
+.pri1 ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 45px;
+
+}
+.pri1 li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #777;
+}
+.pri1 ul li span{
+    color: #5a77dc;
+    font-size: 20px;
+    width: 40px;
+    font-weight: bold;
+    display: inline-block;
+}
+.pri1 .btn{
+    box-shadow: 2px 2px 4px 4px rgb(165, 157, 157);
+}
+/* -----------appli-section--------- */
+.appli-section{
+    
+}
+.author{
+    width: 250px;
+}
+.auther img{
+    margin-left: 40px;
+}
+.user{
+    position: relative;
+    top: 20px;
+}
+.que{
+    font-size: 70px;
+    color: #f3f2f3;
+}
+/* ---------------team-section------------ */
+.team {
+    margin-top: 70px;
+    
+}
+.card img {
+    width: 114px;
+    margin-top: -44px;
+}
+/* ------------app-section------------- */
+/* .mo{
+    color: white;
+    background-color: #4d882b;
+}
+.mo:hover{
+    background-color: white;
+    border: 1px solid #4d882b;
+    color: #4d882b;
+} */

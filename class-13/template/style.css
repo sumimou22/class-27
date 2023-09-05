@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* ----------HEADER SECTION------------- */
+.header-section{
+    background-image: url("https://i.ibb.co/rfVZQSN/photo-1471879832106-c7ab9e0cee23.jpg");
+    padding: 150px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.menu-logo{
+    position: relative;
+    text-align: center;
+}
+.logo{
+    width: 15%;
+}
+.logo img {
+    height: 30px;
+    margin-top: -116px;
+    margin-left: 44px;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -41px;
+}
+.menu {
+    margin-left: 110px;
+    margin-top: -97px;
+    width: 85%;
+    text-align: right;
+    position: absolute;
+}
+.menu ul{
+    margin-top: -30px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+.menu ul li a:hover{
+    color: blueviolet;
+}
+.big{
+    text-align: center;
+
+}
+.big::before {
+    left: 464px;
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    position: absolute;
+    color: red;
+}
+.big::after {
+    top: 151px;
+    content: "\f10e";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 600;
+    right: 466px;
+    position: absolute;
+    color: red;
+}
+/* ------------about-section--------------- */
+.about-section {
+    background-color: white;
+    padding: 97px 0;
+}
+.about {
+    margin-top: -118px;
+    position: relative;
+    text-align: center;
+}
+.pic img {
+    margin-left: -860px;
+    margin-top: 96px;
+    display: inline-block;
+    height: 100px;
+    width: 140px;
+    box-shadow: 1px 1px 7px rgb(20, 11, 11);
+    border: 1px solid red;
+}
+.about2{
+    left: 0;
+    top: 0;
+    margin-left: 300px;
+    position: absolute;
+    text-align: justify;
+    margin-top: 26px;
+}
+.about2 h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* --------------------grid-section-------------- */
+.grid-section{
+    background-color: #2e3e4e;
+}
+.grid{
+    text-align: center;
+    padding: 20px 0;
+}
+.grid1 {
+    width: 33%;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 39px;
+    line-height: 30px;
+}
+.grid2{
+    width: 33%;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+}
+.grid3{
+    width: 33%;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 30px;
+}
+.tom{
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: #d85c4d;
+    padding: 5px 5px;
+    display: inline-block;
+}
+.tom1{
+    color: #d85c4d;
+}
+.sada{
+    color: white;
+}
+span{
+    border-radius: 0 10px 0 10px ;
+    margin-bottom: 10px;
+}
+.grid1 h1{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.grid2 h1{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.grid3 h1{
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.grid1 a{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+.grid1 a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: yellow;
+    transition: .4s;
+    border-radius: 10px;
+}
+.grid1 a:hover::before{
+    width: 100%;
+}
+a:hover{
+    color: black;
+}
+.grid2 a{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+.grid2 a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    z-index: -1;
+    background-color: yellow;
+    transition: .4s;
+    border-radius: 10px;
+}
+.grid2 a:hover::before{
+    height: 100%;
+    
+}
+.grid3 a{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+}
+.grid3 a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    background-color: yellow;
+    transition: .4s;
+    border-radius: 10px;
+}
+.grid3 a:hover::before{
+    width: 100%;
+    
+}
+.grid ul{
+    margin-left: 30px;
+    list-style: none;
+}
+.grid li{
+    font-size: 20px;
+}
+.grid li::before{
+content: "\f560";
+font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    color:  tomato;
+    font-size: 20px;
+    margin-right: 10px;
+}
+/* --------------------------form---------------- */
+.form{
+    padding: 100px;
+    text-align: center;
+}
+.text{
+    width: 40%;
+    padding-right: 60px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red ;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.email{
+    width: 40%;
+    padding-right: 60px;
+    
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red ;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.number{
+    width: 40%;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid red ;
+    margin-top: 20px;
+    padding-right: 60px;
+}
+input{
+   text-align: left;
+   margin-left: -20px;
+}
+/* -----------------button-sectio------------------ */
+.btn {
+    border-radius: 10px;
+    font-size: 18px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 83px;
+    background-color: tomato;
+    color: white;
+    position: relative;
+    z-index: 1;
+    
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: darkgreen;
+    transition: .5s;
+    border-radius: 5px 0 0 5px;
+    z-index: -1;
+}
+.btn:hover::before{
+    width: 50%;
+
+}
+.btn::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 0;
+    background-color: darkgreen;
+    transition: .5s;
+    border-radius: 0 5px 5px 0;
+    z-index: -1;
+}
+.btn:hover::after{
+    width: 50%;
+
+}
+/* -------------------footer-------------------- */
+.footer-section{
+    background-color: #2e3e4e;
+    padding: 20px 0;
+}
+.footer{
+    text-align: center;
+    color: white;
+}
+.red{
+    color: #d4554e;
+}
+/* ------------------******css-end*****--------------- */
+

@@ -1,0 +1,218 @@
+/* ---------------------default-value------------------ */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* ---------------------------header-section-------------- */
+.header-section{
+    background-color: white;
+    text-align: center;
+}
+.header{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.header ul{}
+.header ul li {
+   list-style: none;
+   display: inline-block;
+   position: relative;
+   z-index: 1;
+}
+.header ul li a{ 
+    text-decoration: none;
+    color: black;
+    background-color: #48dbfb;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.header ul li a:hover{
+    background-color: white;
+    color: rgb(86, 7, 204);
+}
+.header ul li::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    width: 0;
+    height: 4px;
+    background-color: rgb(19, 15, 15);
+    transition: .5s;
+    z-index: -1;
+}
+.header ul li:hover::after{
+    width: 70%;
+}
+/* ------------hero-section----------------- */
+.hero-section{
+    background-color: #48dbfb;
+    padding: 100px;
+}
+.hero{
+    text-align: center;
+}
+.hero h4{
+    color: white;
+    margin-bottom: 15px;
+}
+.hero h1{
+    color: white;
+    padding: 0 10px;
+    font-size: 30px;
+}
+.btn{
+    color: #090707;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+.icon{
+    color: #0e0e0e;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.btn::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #707070;
+    z-index: -1;
+    transition: .5s;
+    border-radius: 10px;
+}
+.btn:hover::before{
+    width: 100%;
+}
+/* -----------------------gallary-section----------- */
+.gallary-section{
+    background-color: white;
+    padding: 0px 50px;
+}
+.gallary{
+    text-align: center;
+}
+.text-div{
+    margin-top: 40px;
+}
+.text-div p{
+    margin-bottom: 40px;
+}
+.img-div{
+    padding: 50px;
+    text-align: center;
+}
+.IMG1{
+    
+    display: inline-block;
+    overflow: hidden;
+}
+.IMG1 img{
+    transition: .4s;
+}
+.IMG1:hover img{
+    transform: rotate(360deg) scale(1.5);
+}
+.IMG2{
+    
+    display: inline-block;
+    overflow: hidden;
+}
+.IMG2 img{
+    transition: .4s;
+    transform: scale(1.5);
+
+}
+.IMG2:hover img{
+    transform: rotate(35deg) scale(1);
+}
+.IMG3{
+    display: inline-block;
+    overflow: hidden;
+}
+.IMG3 img{
+    transition: .4S;
+    transform: scale(1.5);
+}
+.IMG3:hover img{
+    transform: rotate(-35deg) scale(1);
+}
+.IMG4{
+    display: inline-block;
+    overflow: hidden;
+}
+.IMG4 img{
+    transition: .4s;
+    /* transform: rotateY(5deg) skew(10deg); */
+}
+.IMG4:hover img{
+    transform: skewY(35deg) rotateY(5deg);
+}
+/* -----------------contract-section----------------*/
+ .contract-section{
+    text-align: center;
+    margin-top: 50px;
+ }
+ .contract{}
+ .last{}
+ .last h1{
+    font-size: 40px;
+ }
+ .last p{
+    font-size: 15px;
+    color: #8a7d76;
+}
+.kalo{}
+.two{
+    font-size: 30px;
+    width: 6%;
+    margin: 0 13%;
+    display: inline-block;
+    color: rgb(223, 219, 219);
+    background-color: #090707;
+    text-align: center;
+}
+.step1{
+    transform: rotate(-35deg);
+}
+.step3{
+    transform: rotate(35deg);
+}
+.step1:hover{
+    transform: rotate(0);
+    background-color: #48dbfb;
+}
+.step2:hover{
+    background-color: #48dbfb;
+}
+.step3:hover{
+    transform: rotate(0);
+    background-color: #48dbfb;
+}
+/* -------------------footer-section---------------- */
+.footer-section{
+    background-color: #090707;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+    margin-top: 20px;
+}
+.footer{
+    
+}
+.footer p{
+    padding: 0 40px;
+}
+/* -------css-end------- */

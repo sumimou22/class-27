@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+/* ----------------------header-section-------------- */
+.header-section{
+    background-color: black;
+}
+.h-left{
+    width: 10%;
+    float: left;
+}
+.h-left img{
+    width: 100px;
+}
+.h-menu{
+    width: 90%;
+    float: right;
+    
+}
+.h-menu ul{
+    text-align: right;
+}
+.h-menu ul li{
+    display: inline-block;
+}
+.h-menu ul li a{
+    display: block;
+    padding: 0 20px;
+    line-height: 70px;
+    text-decoration: none;
+}
+.h-menu ul li :hover > a{
+    color: aqua;
+}
+.h-menu ul{}
+/* -----------------dropdown menu-------------- */
+.h-menu ul li{
+    position: relative;
+}
+.h-menu ul li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+.h-menu ul li ul li{
+    display: block;
+    border-bottom: 1px solid white;
+}
+.h-menu ul li ul li a{
+    display: block;
+    width: 220px;
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    line-height: 40px;
+}
+.h-menu ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    
+}
+/* -------------------banner-section---------------- */
+.banner-section{
+    background-image: url("https://i.ibb.co/m0M47kP/a0c6042d4612d7adf44692fffac7e082.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+}
+.banner{
+    text-align: left;
+}
+.banner h1{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.banner h4{
+    margin-top: 10px;
+}
+.btn1{
+    color: white;
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+.btn2{
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 15px;
+
+}
+.btn1:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.btn2:hover{
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+/* --------------------about-section------------- */
+.about-section{
+    background-color: #87a471;
+}
+.about{
+    text-align: center;
+    padding: 30px;
+}
+.bo{
+    border-bottom: 1px solid white;
+    color: white;
+    margin-bottom: 20px;
+    width: 177px;
+    margin: auto;
+}
+.bo{
+    margin-bottom: 40px;
+}
+.about .text{
+    float: left;
+    width: 60%;
+    color: white;
+    text-align: left;
+    margin-top: 30px;
+}
+.about .pic{
+    float: right;
+    width: 40%;
+    display: inline-block;}
+
+    .pic img{
+        width: 200px;
+        margin-top: 30px;
+    }
+    /* -----------------contract-section--------------- */
+    .contract-section{
+        text-align: center;
+        background-color: #606a64;
+        padding: 20px 0;
+    }
+    .one {
+        margin-bottom: 10px;
+        color: white;
+        margin-top: -18px;
+    }
+    .two {
+        margin-bottom: 20px;
+        color: white;
+        width: 714px;
+        margin: auto;
+    }
+    .kum{
+        float: left;
+        width: 25%;
+        background-color: white;
+        border-radius: 10%;
+        margin-left: 5%;
+        padding: 10px;
+        text-align: left;
+        margin-top: 20px;
+        box-sizing: content-box;
+        height: 180px;
+        width: 250px;
+    }
+    .kum p{
+        float: right;
+        width: 90%;
+        margin-top: 20px;
+    }
+    .kum img{
+        float: left;
+        width: 10%;
+    }
+    .kum h2{
+        margin-left: 10px;
+        display: inline-block;
+    }
+    /* ----------------------check-section----------- */
+
+.check-section{
+    background-color: #87a471;
+    padding: 100px;
+}
+.check{
+    text-align: center;
+}
+.tip{
+    color: white;
+    margin-bottom: 10px;
+}
+.top{
+    color: white;
+}
+.pure{
+    margin-top: 40px;
+}
+.mo{
+    width: 45%;
+    float: left;
+    border: 1px solid rgb(231, 225, 225);
+    padding-bottom: 30px;
+    
+}
+.mo img{
+    width: 100%;
+}
+.sumi{
+    width: 45%;
+    float: right;
+    border: 1px solid rgb(240, 232, 232);
+    padding-bottom: 30px;
+}
+.ro{
+    color: #4b6587;
+    margin-top: 10px;
+}
+.po{
+    color: #ffffff;
+    margin-top: 10px;
+}
+.ture{
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+}
+.sig1{
+    float: left;
+    width: 22%;
+    margin-left: 3%;
+}
+/* ----------------team-section------------- */
+.team-section{
+    background-color: #5b9776;
+    padding: 50px;
+}
+.team{
+    text-align: center;
+}
+.team .co {
+    margin: auto;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+    width: 262px;
+    color: white;
+}
+.man{
+    float: left;
+    width: 29%;
+    margin-left: 3%;
+}
+span{
+    display: inline-block;
+    color: white;
+    margin:0 5px;
+}
+/* ----------------------work-section--------------- */
+.work-section{
+    background-color:#606a64 ;
+    padding: 50px;
+}
+.work{
+    text-align: center;
+}
+.work h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.work p{
+    margin: auto;
+    color: white;
+    width: 500px;
+}
+.bot{
+    color: white;
+    background-color: #00bc9c;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+/* ------------------FOOTER-SECTION-------------- */
+.footer-section{
+    background-color: black;
+    padding: 20px;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    color: white;
+}

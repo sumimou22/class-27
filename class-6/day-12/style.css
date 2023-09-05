@@ -1,0 +1,51 @@
+/* color css */
+
+
+/* color name and rgb color */
+
+h1{
+    color: blue;
+    background-color: rgb(39, 6, 69);
+}
+
+
+
+/* hue sasuration lightness color */
+h2{
+    background-color: hsl(5, 100%, 20%);
+}
+
+/* hexadecimal color */
+h3{
+    background-color: #556688 ;
+}
+
+
+
+
+/* text property */
+h5{
+    background-color: blueviolet;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: lowercase;
+    word-spacing: 5;
+    text-shadow: 3px 3px red;
+    
+}
+h4{
+    background-color: chartreuse;
+    text-align: left;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    text-shadow: 2px 2px yellow;
+}
+
+p{
+    background-color: rgb(18, 18, 17);
+    text-align: right;
+    text-decoration: overline;
+    text-transform: capitalize;
+    line-height: 2;
+    text-shadow: 1px 1px rgb(167, 167, 30);
+}

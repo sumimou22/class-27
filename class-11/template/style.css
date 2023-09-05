@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* -------------header-section----------- */
+.header-section{}
+.menu{
+    background-color: #34495e;
+}
+.menu ul{
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e67e22;
+}
+.menu ul li a:hover{
+    color: #21150b;
+}
+.menu ul li span{
+    width: 6px;
+    height: 30px;
+    background-color: white;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    margin-top: -20px;
+    
+}
+.menu ul li p{
+    color: #e67e22;
+}
+/* --------slider-section---------- */
+.slider-section{
+  
+    text-align: center;
+    position: relative;
+}
+.slider{
+    background-color: #e1e1e1;
+    text-align: center;
+    position: relative;
+}
+.slider h3{
+    color: #4f0909;
+   
+}
+.slider_head {
+    color: #3c5e3c;
+    font-size: 40px;
+    border-bottom: 5px dashed #3c5e3c;
+    padding: 40px;
+    margin-bottom: 20px;
+    
+}
+.sercviceitem{
+    width: 100%;
+}
+
+.item3{
+    position: relative;
+    top: 20px;
+    left: 0;
+}
+.div1{
+    height: 250px;
+    width: 200px;
+    display: inline-block;
+    background-color: #eee7e7;
+    box-shadow: 1px 1px 13px black;
+       border-radius: 15px;
+       box-sizing: border-box;
+       margin: 0px 30px;
+    padding: 10px;
+    transition: .4s;
+    
+}
+.item{
+    height: 100%;
+    width: 100%;
+}
+.div1:hover{
+    background-color: #2b93dd;
+}
+
+
+i{
+    color: #3c5e3c;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+/* ----------------contract-section---------- */
+
+.violet{
+    text-align: center;
+    background-color: #9b59b6;
+    padding:100px ;
+    position: relative;
+ 
+}
+.violet .div-one{
+    height: 100px;
+    width: 100px;
+    background-color: #34495e;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 131px;
+    left: 26%;
+    border: 5px dotted #e37d22;
+}
+.violet .div-two{
+    height: 100px;
+    width: 100px;
+    background-color: #34495e;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px dotted #e37d22;
+    position: absolute;
+    top: 36px;
+    right: 54%;
+}
+
+
+.violet .div-four{
+    height: 100px;
+    width: 100px;
+    background-color: #34495e;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px dotted #e37d22;
+    position: absolute;
+    top: 35px;
+    right:38% ;
+}
+.violet .div-five{
+    height: 100px;
+    width: 100px;
+    background-color: #34495e;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px dotted #e37d22;
+    position: absolute;
+    top: 129px;
+    right: 28%;
+}
+/* hover img */
+.div-three{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 10px auto;
+    position: relative;
+}
+.div-three img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.hover-pic{
+    background-color: #ade2507d;
+    height:0px;
+    width: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.hover-pic h4{
+    position: absolute;
+    top: 73px;
+    left: 35px;
+}
+.div-three:hover .hover-pic{
+    height:100%;
+    width:100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+   
+form{
+    margin: 10px;
+    text-align: center;
+   
+}
+.first{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #fff;
+}
+.second{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #fff;
+}
+.button{
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 20px;
+    background-color:  #9b59b6;
+    transition: .5s;
+
+}
+.button:hover{
+    color: violet;
+    background-color: #fff;
+}
+
+/* <!-- --------footer-section------- --> */
+
+.footer{
+    background-color: #6f97c0;
+    text-align: center;
+    padding: 20px;
+}
+.footer{
+    color: white;
+    font-size: 20px;
+
+}

@@ -1,0 +1,87 @@
+h1{
+    color: black;
+   
+
+}
+
+div p{
+    color: black;
+    background-color: #8bf205;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    
+   
+}
+
+div p:hover{
+    background-color: darkorange;
+    cursor: pointer;
+    transition: .5s;
+    
+}
+.mou{
+    color: black;
+    
+}
+
+#sumi{
+    color: aliceblue;
+   
+}
+
+
+ul li a{
+    color: rgb(37, 210, 10);
+   
+}
+
+ul.header-menu li a{
+    color: rgb(232, 77, 15);
+   
+}
+
+.mousumi li:first-child a{
+    color: darkorange;
+}
+
+.golap li:nth-child(even) a{
+    color: rgb(242, 15, 15);
+
+}
+
+.mousumi2 li:nth-child(odd) a{
+    color: cornflowerblue;
+}
+
+.mousumi3 li:nth-child(1) a{
+    color: rgb(217, 140, 39);
+}
+.mousumi3 li:nth-child(2) a{
+    color: rgb(8, 10, 14);
+}
+
+.mousumi3 li:nth-child(3) a{
+    color: rgb(39, 14, 137);
+}
+.mousumi3 li:nth-child(4) a{
+    color: rgb(216, 27, 27);
+}
+.mousumi3 li:nth-child(5) a{
+    color: rgb(181, 229, 22);
+}
+.mousumi3 li:nth-child(6) a{
+    color: rgb(112, 22, 201);
+}
+.mousumi3 li:nth-child(7) a{
+    color: rgb(62, 69, 17);
+}
+.mousumi3 li:nth-child(8) a{
+    color: #8bf205;
+}
+
+
+
+
+
+

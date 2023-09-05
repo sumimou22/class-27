@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+/* -----------header-section-------- */
+.header-section{}
+.menu{ 
+    background-color: black;
+    text-align: center;
+}
+.menu ul{}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+    
+}
+.menu ul li a{
+    padding: 12px 24px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    
+}
+.menu ul li:hover > a{
+    color: white;
+   
+}
+/* -------first-dropdown part------ */
+.menu ul li ul{
+    width: 200px;
+    background-color: rgb(1, 0, 0)  ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    border-top: 5px solid blue;
+}
+.menu ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+}
+.menu ul li ul li{
+    display: block;
+    position: relative;
+    border-bottom: 1px solid #2c2c2a;
+    border-top: 1px solid #2c2c2a;
+}
+.menu ul li ul li:hover > a{
+    display: block;
+    background-color: blue;
+   
+}
+
+.menu ul li ul li ul{
+    top: 0;
+    left: 100%;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+.menu ul li ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+}
+
+/* ---------slider-section------ */
+.slider-section{
+    text-align: center;
+ 
+}
+.slider{
+    background-image: url("https://i.ibb.co/1sp6xyd/young-mens.jpg");
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.slider h1{
+    background-color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-top: -50px;
+}
+.slider h4{
+    background-color: white;
+    margin: 0 10px;
+}
+.slider a{
+    background-color: red;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+    display: inline-block;
+}
+.slider a:hover{
+    background-color: white;
+    color: rgb(17, 16, 16);
+    border: 2px solid red;
+    font-weight: 400px;
+}
+/* ---------contract-section--------- */
+.outside-section{
+    text-align: center;
+    padding: 30px 0;
+    
+}
+.outside{
+    border: 1px solid #dddddd;
+    padding: 20px 0;
+    
+   
+}
+.inside-section{
+    text-align: center;
+    padding: 30px 0;
+    
+}
+.inside{
+    box-shadow: 1px 1px 7px rgb(238, 223, 223);
+    list-style-position: inside;
+    padding: 20px 0;
+
+   
+}
+/* ---------SUBSCRIBE-PART----------- */
+.subscription-section{
+    text-align: center;
+}
+.subs{
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+.first{
+    width: 60%;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-left: none;
+}
+.one{
+    width: 24%;
+    padding: 12px 10px;
+    background-color: red;
+    border: none;
+    margin-left: -6px;
+    color: white;
+    font-size: 14px;
+}
+.one:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid red;
+}
+/* ---------list-type-section------- */
+.list-type{
+    text-align: center;
+}
+.list{
+    border: 5px dotted #f2f2f2;
+    padding: 100px 0;
+    margin-top: 20px;
+
+}
+.type1{
+    width: 33%;
+    display: inline-block;
+    list-style-position: inside;
+}
+.type1 ul li{
+    list-style-type: lower-roman;
+}
+.type2{
+    width: 33%;
+    display: inline-block;
+    list-style-position: inside;
+}
+.type3{
+    width: 33%;
+    display: inline-block;
+    list-style-position: inside;
+}
+.type3 ul li{
+    list-style-type: lower-greek;
+}
+/* -----------------------footer-section---------- */
+.footer-section{
+    text-align: center;
+}
+.footer{
+    background-color:black;
+    padding: 40px 0;
+}
+.footer p{
+    color: white;
+}
+.footer ul{}
+.footer ul span{
+    color: black;
+    background-color: #5ea5fa;
+    font-size: 20px;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    margin-right: 10px;
+}
+.footer ul span:hover{
+    background-color: white;
+}
+

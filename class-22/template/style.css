@@ -1,0 +1,86 @@
+/* -----------------header-section-------- */
+.sad{
+    color: #ffffff;
+}
+.banner-section{
+    background-color: #f9f9ff;
+    padding: 40px 0;
+}
+.so{
+    color: #40454b;
+}
+.one {
+    margin-top: 182px;
+}
+.mo{
+    background-color: #8490ff;
+    color: white;
+}
+/* ----------------banner2------------- */
+.text {
+    margin-left: -93px;
+}
+/* -----------number-section----------- */
+.number-section{
+    background-color:#8490ff ;
+    padding: 40px 0;
+}
+/* -----------pricing section------------ */
+.pricing-section{
+    background-color:#f9f9ff ;
+}
+.price {
+    padding: 12px;
+    margin-top: 24px;
+    background-color: #ffffff;
+}
+.price p {
+    width: 114px;
+    height: 114px;
+    background-color: #f9f9ff;
+    border-radius: 50%;
+    line-height: 95px;
+    padding: 10px 0;
+}
+.price h4{}
+.price h5{}
+.price ul {
+    margin-left: -30px;
+}
+.price li {
+    list-style: none;
+    line-height: 4;
+    color:#929292 ;
+ 
+}
+/* -----------team-section-------- */
+.team {
+    padding-top: 42px;
+}
+.card {
+    padding-bottom: 31px;
+}
+.card img {
+    margin-top: -39px;
+    margin-left: 10px;
+    margin-bottom: 22px;
+}
+/* ---------form-section---------- */
+.form-section{
+    background-color: #f9f9ff;
+}
+.mu{
+    background-color: #17a2b8;
+}
+.touch {
+    margin-top: 77px;
+    margin-left: -18px;
+}
+.touch h5 {
+    color: #6c6f73;
+    margin-left: 33px;
+}
+.touch ul{}
+.touch li{
+    list-style: none;
+}

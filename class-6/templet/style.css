@@ -1,0 +1,117 @@
+.main-div{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+h1{
+    background-color:#0b1979 ;
+    color: #cabecb;
+    
+    
+}
+.menu-1 h1 sub{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+
+}
+span{
+    color:#ab3c6e ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+sup{
+    color: #5383d5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.green{
+    color: white;
+    background-color: #047504;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 300;
+
+}
+.menu-1{
+    background-color: black;
+}
+
+
+.about-section{
+    background-color: #eeeeee;
+}
+
+
+.about-section h1{
+    color:#202529 ;
+    background-color:#834646 ;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 0;
+}
+.about-section p{
+    color:#7e8080 ;
+    background-color:#eeeeee ;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+.service-section{
+    margin-top: 0;
+    background-color: #eeeeee;
+    margin-bottom: -21px;
+}
+.service-section h1{
+    color:#254d38 ;
+    background-color: #297a48;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-top: 0;
+
+}
+.contact-section{
+    background-color: #eeeeee;
+    margin-top: 0;
+    margin-bottom: -18px;
+}
+.contact-section h1{
+    color:#1b3862 ;
+    background-color:#0d6efd ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.submit-button{
+    text-align: left;
+    margin-top: 21px;
+    margin-left: 379px;
+}
+    
+.sea-section{
+    color: #e7eef7;
+    background-color:#4f84c4 ;
+    
+}
+.sea-section h2{
+    color: white;
+    font-family: 'Yellowtail', cursive;
+    font-weight: 900;
+
+}
+.footer-section{
+    
+}
+.footer-section h3{
+    color: white;
+    background-color:#000000 ;
+    
+    
+}
+.footer-section a{
+    text-decoration: none;
+
+}

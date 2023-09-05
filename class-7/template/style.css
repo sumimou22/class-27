@@ -1,0 +1,38 @@
+.div-1{
+    color:#b89696 ;
+    background-color:#7d4b4b ;
+    width: 600px;
+    padding: 80px 20px;
+    margin-left: 5%;
+    border-radius: 0 80px 80px 0;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 5%;
+
+
+
+
+
+}
+.div-2{
+    color:#c09484 ;
+    background-color:#4f7d4b;
+    width: 600px;
+    padding: 80px 20px;
+    margin-left: 50%;
+    border-radius:  80px 0 0 80px ;
+    text-align: center;
+    font-size: 70px;
+    
+}
+.div-3{
+    color: #b2b6c8;
+    background-color:#340e9d ;
+    width: 600px;
+    padding: 80px 60px;
+    margin-left: 5%;
+    border-radius:  80px 0 0 80px ;
+    text-align: center;
+    font-size: 70px;
+    
+}

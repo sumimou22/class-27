@@ -1,0 +1,161 @@
+/* ---------------------------header-section------------------- */
+.header{
+    background-color: green;
+}
+.mou{
+    color: palegreen;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: none;
+    text-shadow: 2px 2px 7px rgb(10, 9, 9);
+
+}
+.primary-menu{}
+.primary-menu ul{
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+    /* border-right: 1px solid white; */
+
+}
+.primary-menu ul li a {
+    padding: 0 23px;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    border-right: 1px solid white;
+    line-height: 60px;
+}
+.primary-menu ul li a:hover{
+    color: palegreen;
+}
+/* --------------------------------banner-section-------------------- */
+.banner-section{
+    background-image: url("https://i.ibb.co/4PdJ4Xr/banner-1036483-640.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    background-position: bottom center;
+}
+.banner{
+    text-align: center;
+}
+.banner h1 {
+    font-size: 30px;
+    margin-left: 278px;
+    width: 360px;
+    color: white;
+    background-color: cornflowerblue;
+}
+.banner h2 {
+    margin-left: 260px;
+    width: 395px;
+    color: rgb(16, 15, 15);
+    background-color: rgb(0, 255, 34);
+    margin-top: 10px;
+}
+/* ---------------------------ABOUT-SECTION------------------ */
+.about-section{
+    background-color: #aeccebe0;
+    text-align: center;
+}
+.about{
+    margin-top: 30px;
+}
+.about h1{
+    color: rgb(15, 13, 13);
+}
+.about p{
+    color: rgb(11, 11, 11);
+    
+}
+/* ----------------service-section--------------- */
+.service-section{
+    background-color: cadetblue;
+}
+.card{
+    background-color: darkslategray;
+    color: rgb(76, 194, 47);
+}
+.card i{
+    width: 65px;
+    height: 65px;
+    color: cornflowerblue;
+    background-color: rgb(171, 226, 43);
+    line-height: 65px;
+    font-size: 35px;
+    border-radius: 0 30px 0 30px;
+    margin-top: 10px;
+}
+.card i:hover{
+    background-color: brown;
+    color: fuchsia;
+}
+.card h3{
+    margin-top: 10px;
+}
+.card p{
+    margin-top: 5px;
+}
+/* ----------product-section----------- */
+.product-section{
+    background-color: lightslategrey;
+}
+.product img{
+    max-width: 100%;
+}
+.product p{
+    text-align: justify;
+}
+/* ----------product-left---------- */
+.product-left{}
+.product-left h2{ 
+    margin-left: 30px;
+}
+.product-left ul{
+    list-style: none;
+}
+.product-left ul li {
+    border-radius: 6px;
+    background-color: cadetblue;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    padding: 8px 7px;
+}
+/* ---------------contract---------- */
+.contract{
+    background-color: cornflowerblue;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(237, 100, 102);
+}
+/* ----------------footer-section----------- */
+.footer-section{
+    background-color: black;
+    margin-bottom: 20px;
+    height: 40px;
+}
+.footer-section p{
+    color: white;
+    line-height: 30px;
+    
+}
+.footer-section ul{
+    text-align: right;
+
+}
+.footer-section ul li{
+    display: inline-block;
+    color: darkturquoise;
+    margin-left: 40px;
+    font-size: 30px;
+    
+}
+.footer-section li a:hover{
+    color: crimson;
+}
+

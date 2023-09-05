@@ -1,0 +1,71 @@
+.table{
+    text-align: center;
+}
+
+.yellow{
+    background-color:#ffff00 ;
+}
+.blue{
+    color: #7f438e;
+
+}
+.ice{
+    background-color:#ffcccc ;
+}
+.number{
+    background-color: #c4e538;
+
+}
+.pink{
+    background-color: #ff6980;
+}
+.green{
+    background-color: #2ed573;
+
+}
+.brown{
+    background-color:#ecb239 ;
+}
+.red{
+    background-color: #ff3f34;
+}
+.nil{
+    background-color: #0fbcf9;
+}
+.gren{
+    background-color:#7ae893 ;
+}
+.begun{
+    background-color: #d980fa;
+}
+.mati{
+    background-color:#c6ccd5 ;
+}
+.beguni{
+    background-color: #8e4abe;
+
+}
+.nila{
+    background-color:#2222fd ;
+}
+.sobuj{
+    background-color: #008000;
+
+}
+.bron{
+    background-color: #ffa500;
+}
+.para{
+    color: #5026c5 ;
+    background-color:#d2d2d2 ;
+    text-align: center;
+}
+.lal{
+    color:#f75454 ;
+}
+.footer{
+    color: white;
+    background-color: #45d76a;
+    font-size: 30px;
+    text-align: center;
+}

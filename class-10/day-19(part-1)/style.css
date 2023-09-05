@@ -1,0 +1,60 @@
+h1{
+    background-color: rgb(76, 200, 48);
+}
+h2{
+    background-color: rgb(24, 212, 21);
+}
+h3{
+    background-color: rgb(48, 220, 22);
+}
+h4{
+    background-color: rgb(46, 215, 16);
+}
+h5{
+    background-color: rgb(13, 211, 42);
+}
+h6{
+    background-color: rgb(36, 219, 85);
+}
+div{
+    background-color: rgb(21, 181, 29);
+}
+p{
+    background-color: rgb(23, 184, 42);
+}
+small{
+    background-color: rgb(21, 194, 56);
+}
+strong{
+    background-color: rgb(23, 205, 32);
+}
+a{
+    background-color: rgb(19, 220, 32);
+}
+span{
+    background-color: rgb(17, 215, 83);
+}
+code{
+    background-color: rgb(28, 211, 80);
+}
+b{
+    background-color: rgb(16, 198, 40);
+}
+sub{
+    background-color: rgb(16, 204, 31);
+}
+sup{
+    background-color: rgb(14, 197, 38);
+}
+u{
+    background-color: rgb(28, 205, 19);
+}
+ol{
+    background-color: rgb(23, 189, 11);
+}
+ul{
+    background-color: rgb(16, 200, 35);
+}
+li{
+    background-color: rgb(14, 207, 30);
+}

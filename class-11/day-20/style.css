@@ -1,0 +1,98 @@
+
+.maindiv{
+    width: 400px;
+    position: relative;
+}
+.hoverdiv img{
+    max-width: 100%;
+}
+.hoverinner{
+    text-align: center;
+    color: azure;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    background-color: rgba(138, 25, 194, .40);
+    visibility: hidden;
+    
+    
+    
+}
+.hoverinner h1{
+    margin-top: 240px;
+    font-size: 50px;
+
+}
+
+.maindiv:hover .hoverinner{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+  
+    
+
+
+    
+}
+.mul-div{
+    width: 400px;
+    height: 309px;
+    border: 7px solid black;
+    position: relative;
+}
+
+
+
+
+
+
+.div1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    display: inline-block;
+    position: absolute;
+    top: 56px;
+    left: 94px;
+    
+    
+}
+
+.div1:hover{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(72, 228, 72, .40 );
+    text-align: center;
+}
+.div2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(221, 20, 27);
+    display: inline-block;
+
+    
+}
+ .div2:hover{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(72, 228, 72, .40 );
+    text-align: center;
+}
+.div3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(228, 14, 14);
+    display: inline-block;
+    position: absolute;
+    top: 109px;
+    
+}
+
+.div3:hover{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(72, 228, 72, .40 );
+    text-align: center;
+}

@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: rgb(222, 19, 19);
+    text-align: center;
+    font-size: 30px;
+}
+h2::before{
+    content: "age-";
+    color: black;
+}
+h2::after{
+    content: "-pora";
+    color: black;
+}
+.pro{
+    text-align: center;
+    margin-top: 30px;
+}
+p::before{
+    content: '"';
+}
+p::after{
+    content: '"';
+}
+/* ------------------button------------- */
+.button-div{
+    text-align: center;
+    margin-top: 20px;
+}
+.button{
+    color: black;
+    background-color: blueviolet;
+    font-size: 30px;
+    padding: 10px 30px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+.button::before{
+    content: "";
+    width: 0;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: darkslateblue;
+    border-radius: 10px;
+    transition: .5s;
+    z-index: -1;
+}
+.button:hover::before{
+    width: 100%;
+    
+}
+/* ---------icon------------- */
+ul{
+    margin-left: 30px;
+    list-style: none;
+}
+li{
+    font-size: 20px;
+}
+li::before{
+    content: "\f00c";
+    font-family: "Font Awesome 5 free";
+    font-weight: 600;
+    color: blueviolet;
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+

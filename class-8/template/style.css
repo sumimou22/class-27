@@ -1,0 +1,144 @@
+.headerSection{
+    background-color:#34495e ;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
+
+}
+.heroSection img{
+    width: 100%;
+}
+.serviceSection{
+    background-color: #0d6efd;
+    padding: 70px 100px;
+}
+.singleService1{
+    width: 500px;
+    color: white;
+    background-color: #e67e22;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 0 50px 50px 0;
+    margin-left: 61px;
+    border-left: 4px solid black;
+    box-shadow: 1px 1px 2px black;
+}
+.singleService2{
+    width: 500px;
+    color: white;
+    background-color: #1abc9c;
+    padding: 20px;
+    border-radius: 50px 0 0 50px;
+    margin-left: 419px;
+    text-align: right;
+    border-right:2px solid red;
+    box-shadow: 1px 1px 3px black;
+}
+.flagSection{
+    background-color:#4d687a;
+    padding: 70px 0;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.bangladesh{
+    width: 350px;
+    height: 200px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 1px 1px 10px rgb(166, 156, 156);
+}
+.gol{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.england{
+    width: 350px;
+    height: 200px;
+    color: white;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+
+}
+.eng{
+    width: 350px;
+    height: 30px;
+    background-color: red;
+    margin-top:82px ;
+    display: inline-block;
+}
+.land{
+    height: 200px;
+    width: 30px;
+    background-color: red;
+    margin-left: 237px;
+    margin-top: -118px;
+}
+.england h4{
+    margin-top: 20px;
+    
+}
+
+.japan{
+    width: 350px;
+    height: 200px;
+    color: white;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 4px solid black;
+}
+.gol1{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.german{
+    width: 350px;
+    height: 203px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+}
+.ger{
+    width: 350px;
+    height: 67px;
+    background-color: black;
+
+}
+.ger1{
+    width: 350px;
+    height: 67px;
+    background-color: red;
+    border-top: 2px solid #ffffff ;
+    border-bottom: 2px solid #ffffff ;
+
+}
+.ger2{
+    width: 350px;
+    height: 67px;
+    background-color: #ffff00;
+
+}
+.footerSection{
+    background-color:#198754 ;
+    text-align: center;
+    padding: 20PX 0;
+    color: white;
+}
