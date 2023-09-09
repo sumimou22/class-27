@@ -12,9 +12,13 @@
     width: 1000px;
     margin: 0 auto;
 }
+.fixwidth{
+    width: 100%;
+}
 /* ----------------------header-section----------------- */
 .header-section{
     background-color: #2d91dd;
+    padding: 20px 0;
 }
 .header{}
 .header-left{
@@ -50,7 +54,7 @@
     background-image: url("https://i.ibb.co/ZhSBCXD/header-bg01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 200px;
+    padding: 200px 0;
     text-align: center;
     background-attachment: fixed;
 }
@@ -75,7 +79,7 @@
 /* ---------------------------grid-section------------------- */
 .grid-section {
     margin-top: -55px;
-    padding: 100px;
+    padding: 100px 0;
 }
 .grid{
     text-align: center;
@@ -102,11 +106,9 @@ span{
     padding:0 200px;
     margin-bottom: 30px;
 }
-.grid-text h1{}
-.grid-text p{}
+
 /* ----------------------------------blog-section----------------------- */
-.blog-section{}
-.blog{}
+
 .blog-left{
     width: 70%;
     float: left;
