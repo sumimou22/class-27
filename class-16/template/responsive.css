@@ -1,0 +1,88 @@
+@media(max-width:992px) {
+    .put img {
+        margin-top: -30px;
+    }
+    .one{
+        margin-top: 0;
+    }
+    .put img {
+        max-width: 100%;
+        
+    }
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .number {
+        margin-left: 101px;
+    }
+    .text {
+        margin-left: -5px;
+        text-align: center;
+    }
+}
+@media(max-width:768px){
+    .son ul li {
+        font-size: 12px;
+    }
+    .one {
+        margin-top: 50px;
+        text-align: center;
+    }
+   
+    .put {
+        margin-left: 110px;
+        margin-top: 90px;
+        
+    }
+    .btn {
+        margin-top: -4px;
+    }
+    
+    .put img {
+        max-width: 100%;
+        
+        
+    }
+    .one {
+        margin-top: 30px;
+    }
+    .pic2 {
+        margin-left: 73px;
+    }
+    .pic2 img{
+        max-width: 100%;
+        width: 100%;
+    }
+    .text {
+        margin-left: -4px;
+        text-align: center;
+    }
+    .number {
+        text-align: center;
+    }
+    .team {
+        padding-top: 82px;
+        margin-bottom: 20px;
+    }
+    .touch {
+        margin-top: 77px;
+        margin-left: -18px;
+        text-align: center;
+    }
+}
+@media(max-width:576px){
+    .put {
+    
+        
+    }
+    .pic2 {
+        margin-left: 50px;
+        margin-right: -103px;
+    }
+    .number {
+        margin-left: 21px;
+    }
+   
+   
+}

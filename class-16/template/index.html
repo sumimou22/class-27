@@ -1,156 +1,319 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+
 </head>
+
 <body>
-    <!-- ---------header-section------------ -->
-    <div class="header">
+<div class="main">
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-sm navbar-light sad bg-white fixed-top>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="header-left">
-                        <a href="#">
-                            <img src="https://sowrav928.github.io/lfwfacademy/img/lfwf-logo.png" alt="">  
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-8">
-                    <div class="menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Work</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>                   
-                </div>
-            </div>
+        <a class="navbar-brand" href="#"><img src="https://i.ibb.co/Htxfb8Q/logo.jpg" height="50px" alt=""></a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse son" id="collapsibleNavId">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0 mou">
+            <li class="nav-item">
+              <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Service</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Action 1</a>
+                <a class="dropdown-item" href="#">Action 2</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Action 1</a>
+                <a class="dropdown-item" href="#">Action 2</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contract us</a>
+            </li>
+          </ul>
         </div>
-    </div>
-    <!-- -----------------hero-section------------- -->
-    <div class="hero-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="hero">
-                        <h4 class="mt-5">I am Morgan Freeman</h4>
-                        <p class="m-auto mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio ipsa vero quod animi sunt iusto ipsum itaque dolorum beatae cupiditate?</p>
-                        <a class="btn btn-primary mt-3" href="#">Large button</a>
-                    </div>
-                </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- ------------------banner-section---------- -->
+    <section class="banner-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="one">
+              <h5>This is me</h5>
+              <h2 class=" so mt-3">Philip Gilbert</h2>
+              <p class="mt-3">You will begin to Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt qui consequuntur doloremque beatae facere rem</p>
+              <a class="btn btn-lg mo" href="#">Discover Now</a>
             </div>
+          </div>
+          <div class="col-lg-6">
+          <div class="put">
+            <img src="https://i.ibb.co/JsM6My8/hero-img.webp" alt="">
+          </div>
+          </div>
         </div>
-    </div>
-    <!-- ----------------meet-section-------------- -->
-    <div class="meet-section text-center pt-5 pb-5">
-        <div class="container">
-          <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="mb-5">Meet Our Teem</h1>
-                <div class="row">
-                    <div class="col-sm-4">
-                        <div class="meet1">
-                            <img src="https://i.ibb.co/nf76Pt6/222222.jpg" alt="">
-                            <h5>I am jece</h5>
-                            <p>Some quick example text to build on the card title and make up the cards content</p>
-                            <a class="btn btn-primary" href="#">Go somewhere</a>
-                        </div> 
-                        </div>               
-                        <div class="col-sm-4">
-                            <img src="https://i.ibb.co/FDs0xV3/download.jpg" alt="">
-                            <h5>I am Hany</h5>
-                            <p>Some quick example text to build on the card title and make up the cards content</p>
-                            <a class="btn btn-primary" href="#">Go somewhere</a>
-                        </div>               
-                        <div class="col-sm-4">
-                            <img src="https://i.ibb.co/0KqYpC6/images.jpg" alt="">
-                            <h5>I am rock</h5>
-                            <p>Some quick example text to build on the card title and make up the cards content</p>
-                            <a class="btn btn-primary" href="#">Go somewhere</a>
-                    </div>               
-                </div>
+      </div>
+    </section>
+    <!-- ---------------banner-2 section------------ -->
+    <section class="banner-2 py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="pic2">
+              <img class="border w-75" height="300px" src="https://i.ibb.co/fvRDXHV/about-img.webp" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="text">
+              <p class="mt-4">About Me</p>
+              <h2 class="mb-3 so">Personal Details</h2>
+              <p class="mb-3">Here i focus on a Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit eligendi, asperiores laboriosam dolorem repudiandae voluptatem sed porro, aut at illum ullam error eum ex laudantium rerum sunt sequi in et tempora, optio atque nulla! Amet itaque culpa hic tenetur quidem ipsa labore, aut blanditiis iste voluptatibus odit.</p>
+              <a class="btn mo " href="#">View Details</a>
             </div>
           </div>
         </div>
-    </div>
-    <!-- --------------about-section--------------------- -->
-    <div class="about-section text-center">
-        <div class="container">
-            <div class="row">
-                <div class="first mb-5">
-                    <h1>About Us</h1>
-                </div>
-              <div class="col-sm-5">
-                   <div class="row">
-                    <div class="col-sm-5">
-                        <div class="pic">
-                        <img src="https://i.ibb.co/17vyrwG/testimonial-2.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="col-sm-7">
-                        <ul class="list">
-                            <li>Name:Morgan</li>
-                            <li>Profile:full stack developer</li>
-                            <li>Email:contact@example.com</li>
-                            <li>Phone:(617)557-0089</li>
-                        </ul>
-                    </div>
-                        <p class="pop mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum minima minus libero. Voluptatem ut ad eius enim libero. Fugit odio, modi laudantium repudiandae aliquam nisi ut commodi est ipsum?</p>
-                   </div> 
-                </div>
-                <div class="col-sm-7 text-right">
-                    <div class="right">
-                        <h3>About me</h3>
-                        <p>curabitur non nulla Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur velit eligendi ipsam aliquam cum perferendis possimus accusamus ad reprehenderit, nobis tempore doloribus alias quam magni eaque nam atque maiores nisi labore voluptatibus <br> <br> eum! Ea illo nulla, veniam qui aliquam laboriosam quidem? Rem recusandae delectus maxime ipsa hic impedit ut at ullam praesentium, perspiciatis exercitationem deserunt, modi id quia nobis minus atque? Modi similique alias animi sequi.</p>
-                        <p class="lead">nulla porttitor accumsan Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nisi pariatur explicabo aliquam saepe illo nobis accusantium, fuga autem neque laboriosam, obcaecati sint nam.</p>
-                    </div>
-                </div>
-              </div>  
+      </div>
+    </section>
+    <!-- --------------number-section------------ -->
+    <section class="number-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="number">
+              <h1 class="text-light">100+</h1>
+              <p class="text-light">Happy Clients</p>
             </div>
-        </div>
-    </div>
-    <!-- ------------------contract-section----------- -->
-    <div class="contract-section">
-        <div class="container">
-            <div class="row">
-                <h1 class="text-center mb-5">Contact Us</h1>
-                <div class="col-sm-7">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234761.05368438395!2d89.02906748053339!3d23.16503646300501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ff108d87ea6d65%3A0x627d034ef93261cf!2sJashore!5e0!3m2!1sen!2sbd!4v1690629810480!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="col-sm-5">
-                    <form action="#">
-                        <label>Name:</label>
-                        <input type="text" class="form-control mt-2" placeholder="Your Name">
-                        <label>Email:</label>
-                        <input type="email" class="form-control mt-2" placeholder="Your Email">
-                        <label>subject:</label>
-                        <input type="text" class="form-control mt-2" placeholder="Subject">
-                        <label>Messege:</label>
-                        <textarea name="" id="" class="form-control mt-2" cols="30" rows="4"></textarea>
-                        <input type="submit" value="Submit" class="btn btn-info mt-3 text-white">
-                    </form>
-                </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="number">
+              <h1 class="text-light">50+</h1>
+              <p class="text-light">Health programs</p>
             </div>
-        </div>
-    </div>
-    <!-- -----------------------------footer-section-------- -->
-    <div class="footer-section text-center bg-primary py-3 text-white">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="footer">
-                        <p>&copy; Copy DevFolio All Rights reserver Desingned by BootstrapMade</p>
-                    </div>
-                </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="number">
+              <h1 class="text-light">300+</h1>
+              <p class="text-light">Project completed</p>
             </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="number">
+              <h1 class="text-light">80+</h1>
+              <p class="text-light">Health programs</p>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </section>
+    <!-- ----------pricing section--------- -->
+    <section class="pricing-section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Start using our app today</h1>
+            <h4>Being active is important to our health ,but how much or what kind of acticity di you need?</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="price text-center shadow pb-5">
+              <p class="h2 mx-auto">01</p>
+              <h5>Economy</h5>
+              <h6>For the individuals</h6>
+              <ul>
+                <li>Secure online Transfer</li>
+                <li>Unlimited Styles for interface</li>
+                <li>Reliable Customer Service</li>
+              </ul>
+              <a class="btn btn-outline-primary shadow" href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="price text-center shadow pb-5">
+              <p class="h2 mx-auto">01</p>
+              <h5>Economy</h5>
+              <h6>For the individuals</h6>
+              <ul>
+                <li>Secure online Transfer</li>
+                <li>Unlimited Styles for interface</li>
+                <li>Reliable Customer Service</li>
+              </ul>
+              <a class="btn btn-outline-primary shadow" href="#">Buy Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="price text-center shadow pb-5">
+              <p class="h2 mx-auto">01</p>
+              <h5>Economy</h5>
+              <h6>For the individuals</h6>
+              <ul>
+                <li>Secure online Transfer</li>
+                <li>Unlimited Styles for interface</li>
+                <li>Reliable Customer Service</li>
+              </ul>
+              <a class="btn btn-outline-primary shadow" href="#">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- --------------website-section-------- -->
+    <section class="team-section pb-5 pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="team">
+              <div class="card border-0 shadow text-center">
+                <img class="w-25" src="https://i.ibb.co/VDxjxrT/face1.jpg" alt="">
+                <div class="card-title">
+                  <h4>Jason Doe</h4>
+                  <p>Programmer</p>
+                </div>
+                <div class="card-text">
+                  <p class="w-75 mx-auto">Lorem ipsum dolor sit, amet consectetur</p>
+                </div>
+                <div class="but"><a class="btn btn-light shadow" href="#">Website</a></div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="team">
+              <div class="card border-0 shadow text-center">
+                <img class="w-25" src="https://i.ibb.co/VDxjxrT/face1.jpg" alt="">
+                <div class="card-title">
+                  <h4>Jason Doe</h4>
+                  <p>Programmer</p>
+                </div>
+                <div class="card-text">
+                  <p class="w-75 mx-auto">Lorem ipsum dolor sit, amet consectetur</p>
+                </div>
+                <div class="but"><a class="btn btn-light shadow" href="#">Website</a></div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="team">
+              <div class="card border-0 shadow text-center">
+                <img class="w-25" src="https://i.ibb.co/VDxjxrT/face1.jpg" alt="">
+                <div class="card-title">
+                  <h4>Jason Doe</h4>
+                  <p>Programmer</p>
+                </div>
+                <div class="card-text">
+                  <p class="w-75 mx-auto">Lorem ipsum dolor sit, amet consectetur</p>
+                </div>
+                <div class="but"><a class="btn btn-light shadow" href="#">Website</a></div>
+                  </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="team">
+              <div class="card border-0 shadow text-center">
+                <img class="w-25" src="https://i.ibb.co/VDxjxrT/face1.jpg" alt="">
+                <div class="card-title">
+                  <h4>Jason Doe</h4>
+                  <p>Programmer</p>
+                </div>
+                <div class="card-text">
+                  <p class="w-75 mx-auto">Lorem ipsum dolor sit, amet consectetur</p>
+                </div>
+                <div class="but"><a class="btn btn-light shadow" href="#">Website</a></div>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----------form-section------- -->
+    <section class="form-section pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <h5>We need to know your opinion</h5>
+            <h1 class="mb-5">Write to us and we will contact you</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="form">
+              <div class="card text-center p-4 border-0 shadow">
+                <h5 class="mt-4 mb-5">Send us a Messege</h5>
+              <form action="#">
+                <input type="email" placeholder="E-mail address" class="form-control mb-3">
+                <div class="row mb-3">
+                  <div class="col-lg-6">
+                    <input type="text" placeholder="Name" class="form-control">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="number" placeholder="Your phone" class="form-control">
+                  </div>
+                </div>
+              <textarea name="" class="form-control mb-3" id="" cols="30" rows="10" placeholder="Messege"></textarea>
+              <a class="btn mu text-light" href="#">Contract Me</a>
+              </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="touch">
+              <h5>Get in touch</h5>
+              <ul>
+                <li>Phone number:+000 000 000 00</li>
+                <li>Email:+000 000 000 00</li>
+                <li>Address:Dinajpur</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</main>
+  <footer>
+    <!-- place footer here -->
+    <footer class="bg-dark py-1 pt-3">
+      <div class="fot">
+        <p class="text-light text-center">Copyright &copy; 2021 Designed by LFWF.ALL rights reserved</p>
+      </div>
+    </footer>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</div>
 </body>
+
 </html>
